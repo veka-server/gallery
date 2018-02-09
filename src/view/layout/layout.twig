@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>{{ title }}</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ description }}"/>
+    <meta name="keywords" content="{{ keywords }}"/>
+
+    <link rel="icon" type="image/png" href="/asset/img/icon.png">
+
+    <link href="/asset/css/reset.css" rel="stylesheet">
+    <link href="/asset/css/font.css" rel="stylesheet">
+    <link href="/asset/css/global.css" rel="stylesheet">
+    <link href="/asset/css/mobile.css" rel="stylesheet">
+
+    <script type="text/javascript" src="/asset/js/jquery.js"></script>
+    <script type="text/javascript" src="/asset/js/lazy.js"></script>
+    <script type="text/javascript" src="/asset/js/jquery.lazy.min.js"></script>
+    <script type="text/javascript" src="/asset/js/jquery.lazy.plugins.min.js"></script>
+
+</head>
+<body>
+
+<div class="header_bar">
+    <div class="titre"> <i class="material-icons">camera</i> Simple Image Viewer</div>
+</div>
+
+{% block content %}{% endblock %}
+</body>
+</html>

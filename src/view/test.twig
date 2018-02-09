@@ -1,0 +1,15 @@
+{% extends 'layout/layout.twig' %}
+
+{% block content %}
+
+    <div class="contenaire_images">
+        {% for image in images %}
+            <div class="image_miniature">
+                <div class="fenetre">
+                    <div class="img" data-src="{{ image }}"></div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+
+{% endblock %}
